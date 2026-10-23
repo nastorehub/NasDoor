@@ -65,11 +65,11 @@ importers:
         specifier: ^12.0.0
         version: 12.0.0(expo@55.0.32)
       '@elevenlabs/react':
-        specifier: ^0.12.3
-        version: 0.12.3(@types/dom-mediacapture-record@1.0.22)(react@19.2.0)
+        specifier: ^1.18.0
+        version: 1.19.1(@types/dom-mediacapture-record@1.0.22)(react@19.2.0)
       '@elevenlabs/react-native':
-        specifier: ^0.5.12
-        version: 0.5.12(@livekit/react-native-webrtc@137.0.3(react-native@0.83.6(@babel/core@7.29.7)(@types/react@19.2.18)(react@19.2.0)))(@livekit/react-native@2.12.0(@livekit/react-native-webrtc@137.0.3(react-native@0.83.6(@babel/core@7.29.7)(@types/react@19.2.18)(react@19.2.0)))(livekit-client@2.23.0(@types/dom-mediacapture-record@1.0.22))(react-dom@19.2.8(react@19.2.0))(react-native@0.83.6(@babel/core@7.29.7)(@types/react@19.2.18)(react@19.2.0))(react@19.2.0)(tslib@2.8.1))(livekit-client@2.23.0(@types/dom-mediacapture-record@1.0.22))(react-native@0.83.6(@babel/core@7.29.7)(@types/react@19.2.18)(react@19.2.0))(react@19.2.0)
+        specifier: ^1.2.30
+        version: 1.2.30(@livekit/react-native-webrtc@137.0.3(react-native@0.83.6(@babel/core@7.29.7)(@types/react@19.2.18)(react@19.2.0)))(@livekit/react-native@2.12.0(@livekit/react-native-webrtc@137.0.3(react-native@0.83.6(@babel/core@7.29.7)(@types/react@19.2.18)(react@19.2.0)))(livekit-client@2.23.0(@types/dom-mediacapture-record@1.0.22))(react-dom@19.2.8(react@19.2.0))(react-native@0.83.6(@babel/core@7.29.7)(@types/react@19.2.18)(react@19.2.0))(react@19.2.0)(tslib@2.8.1))(@types/dom-mediacapture-record@1.0.22)(react-native@0.83.6(@babel/core@7.29.7)(@types/react@19.2.18)(react@19.2.0))(react@19.2.0)
       '@expo/ui':
         specifier: ~55.0.17
         version: 55.0.17(expo@55.0.32)(react-native@0.83.6(@babel/core@7.29.7)(@types/react@19.2.18)(react@19.2.0))(react@19.2.0)
@@ -1184,28 +1184,32 @@ packages:
     resolution: {integrity: sha512-XQsZgjm2EcVUiZQf11UBJQfmZeEmOW8DpI1gsFeln6w0ae0ii4dMQEQ0kjl6DspdWX1aGY1/loyXnP0JS06e/A==}
     engines: {node: '>=0.8.0'}
 
-  '@elevenlabs/client@0.12.2':
-    resolution: {integrity: sha512-QWllhDndFfKmftlktNoa35+AF3gOCbSHowYhR42ZHb5u32lFbMPbh2BALCrpFa3edqCHSXtzG6zzLSAGjkhvHQ==}
+  '@elevenlabs/client@1.28.0':
+    resolution: {integrity: sha512-T0Gh3Hq/AfO7lq1ym4uvBLsHR/RbcHiDO6uPC9q4VA11IPWfAp3OXmucqDTc3ZDBzkcpvII7sJXIl4DtPkwAww==}
 
-  '@elevenlabs/react-native@0.5.12':
-    resolution: {integrity: sha512-QUdPNgIJUVrHfjlWq/Q5A652ptZoEk363p8xqY0zrlyX/OzSZtLZS/aN0pbWy3DOUteHU6yhqRcWU1/bMxVW7g==}
+  '@elevenlabs/client@1.30.0':
+    resolution: {integrity: sha512-3JCmanYb+/L+ZHowYYVHq/CGBs9aRk+BJotLUfdO/dtOBeiRtbxcknTWEcs99z4WGfSSD9xawGU1utFQDYrI+Q==}
+
+  '@elevenlabs/react-native@1.2.30':
+    resolution: {integrity: sha512-q/NB5Cb1sMkJtINXU1of8w9LV1J5sN1NgJfwzADFx+sC+vchf0wooRJdb4842Rn66VnwsGf9RmoL0uJu2LwuUw==}
     peerDependencies:
-      '@livekit/react-native': ^2.9.2
-      '@livekit/react-native-webrtc': ^137.0.2
-      livekit-client: ^2.15.4
+      '@livekit/react-native': ^2.12.0
+      '@livekit/react-native-webrtc': ^144.1.2
       react: 19.2.0
       react-native: '>=0.70.0'
 
-  '@elevenlabs/react@0.12.3':
-    resolution: {integrity: sha512-fQJlabwuvQziBCCNcxlXZt5GVxcPHjwb46NtSEbLJY0zaOUtWJynRX4kPfbz7ChqnMe7FAHYnrq2XsaSzpQXLQ==}
+  '@elevenlabs/react@1.18.0':
+    resolution: {integrity: sha512-YKu88by5UnojblMu8904B3SzT9IS5xdetiDBjsSYoJRdaURLYstNZS+qNXxkn6nSZ4cC+2ypmBBhiNZyL5hyuw==}
     peerDependencies:
       react: 19.2.0
 
-  '@elevenlabs/types@0.4.0':
-    resolution: {integrity: sha512-6CQb4r9DjepILhLybDxW0h8rvbsR8jPAp74HvFGYuvYdXcQRTkYTD9BQ4PV6VcuC1iqx0UljzJj8js3ADQ8EXw==}
+  '@elevenlabs/react@1.19.1':
+    resolution: {integrity: sha512-wM+An7ii8jRhzY2JjV5IkteW1mw4ceZtQ2NN/bXQFXPOYks/cMdHU4gHNxKFDRzUxxRLmTGmbNtatKvYVXGnMg==}
+    peerDependencies:
+      react: 19.2.0
 
-  '@elevenlabs/types@0.6.1':
-    resolution: {integrity: sha512-SNFrKWw5w/JHy9QGt3WWBj0kc71diPRuXHc/7/hdr46ghYz8mTPlFZJBmSPGwXQAfS29jxYXojEmBfKKfgoPCQ==}
+  '@elevenlabs/types@0.25.0':
+    resolution: {integrity: sha512-aOZeLbvpMmTHdM7cizuKjZnFnKwrbu5yC3VC6B37i1tFk8Ue3uaH5scxz1pTMHLJzXHnPo5YE1sTuNjqRoiRRg==}
 
   '@epic-web/invariant@1.0.0':
     resolution: {integrity: sha512-lrTPqgvfFQtR/eY/qkIzp98OGdNJu0m5ji3q/nJI8v3SXkRKEnWiOxMmbvcSoAIzv/cGiuvRy57k4suKQSAdwA==}
@@ -8360,32 +8364,46 @@ snapshots:
     dependencies:
       '@types/hammerjs': 2.0.46
 
-  '@elevenlabs/client@0.12.2(@types/dom-mediacapture-record@1.0.22)':
+  '@elevenlabs/client@1.28.0(@types/dom-mediacapture-record@1.0.22)':
     dependencies:
-      '@elevenlabs/types': 0.4.0
+      '@elevenlabs/types': 0.25.0
       livekit-client: 2.23.0(@types/dom-mediacapture-record@1.0.22)
     transitivePeerDependencies:
       - '@types/dom-mediacapture-record'
 
-  '@elevenlabs/react-native@0.5.12(@livekit/react-native-webrtc@137.0.3(react-native@0.83.6(@babel/core@7.29.7)(@types/react@19.2.18)(react@19.2.0)))(@livekit/react-native@2.12.0(@livekit/react-native-webrtc@137.0.3(react-native@0.83.6(@babel/core@7.29.7)(@types/react@19.2.18)(react@19.2.0)))(livekit-client@2.23.0(@types/dom-mediacapture-record@1.0.22))(react-dom@19.2.8(react@19.2.0))(react-native@0.83.6(@babel/core@7.29.7)(@types/react@19.2.18)(react@19.2.0))(react@19.2.0)(tslib@2.8.1))(livekit-client@2.23.0(@types/dom-mediacapture-record@1.0.22))(react-native@0.83.6(@babel/core@7.29.7)(@types/react@19.2.18)(react@19.2.0))(react@19.2.0)':
+  '@elevenlabs/client@1.30.0(@types/dom-mediacapture-record@1.0.22)':
     dependencies:
-      '@elevenlabs/types': 0.6.1
+      '@elevenlabs/types': 0.25.0
+      livekit-client: 2.23.0(@types/dom-mediacapture-record@1.0.22)
+    transitivePeerDependencies:
+      - '@types/dom-mediacapture-record'
+
+  '@elevenlabs/react-native@1.2.30(@livekit/react-native-webrtc@137.0.3(react-native@0.83.6(@babel/core@7.29.7)(@types/react@19.2.18)(react@19.2.0)))(@livekit/react-native@2.12.0(@livekit/react-native-webrtc@137.0.3(react-native@0.83.6(@babel/core@7.29.7)(@types/react@19.2.18)(react@19.2.0)))(livekit-client@2.23.0(@types/dom-mediacapture-record@1.0.22))(react-dom@19.2.8(react@19.2.0))(react-native@0.83.6(@babel/core@7.29.7)(@types/react@19.2.18)(react@19.2.0))(react@19.2.0)(tslib@2.8.1))(@types/dom-mediacapture-record@1.0.22)(react-native@0.83.6(@babel/core@7.29.7)(@types/react@19.2.18)(react@19.2.0))(react@19.2.0)':
+    dependencies:
+      '@elevenlabs/client': 1.28.0(@types/dom-mediacapture-record@1.0.22)
+      '@elevenlabs/react': 1.18.0(@types/dom-mediacapture-record@1.0.22)(react@19.2.0)
       '@livekit/react-native': 2.12.0(@livekit/react-native-webrtc@137.0.3(react-native@0.83.6(@babel/core@7.29.7)(@types/react@19.2.18)(react@19.2.0)))(livekit-client@2.23.0(@types/dom-mediacapture-record@1.0.22))(react-dom@19.2.8(react@19.2.0))(react-native@0.83.6(@babel/core@7.29.7)(@types/react@19.2.18)(react@19.2.0))(react@19.2.0)(tslib@2.8.1)
       '@livekit/react-native-webrtc': 137.0.3(react-native@0.83.6(@babel/core@7.29.7)(@types/react@19.2.18)(react@19.2.0))
-      livekit-client: 2.23.0(@types/dom-mediacapture-record@1.0.22)
       react: 19.2.0
       react-native: 0.83.6(@babel/core@7.29.7)(@types/react@19.2.18)(react@19.2.0)
+    transitivePeerDependencies:
+      - '@types/dom-mediacapture-record'
 
-  '@elevenlabs/react@0.12.3(@types/dom-mediacapture-record@1.0.22)(react@19.2.0)':
+  '@elevenlabs/react@1.18.0(@types/dom-mediacapture-record@1.0.22)(react@19.2.0)':
     dependencies:
-      '@elevenlabs/client': 0.12.2(@types/dom-mediacapture-record@1.0.22)
+      '@elevenlabs/client': 1.28.0(@types/dom-mediacapture-record@1.0.22)
       react: 19.2.0
     transitivePeerDependencies:
       - '@types/dom-mediacapture-record'
 
-  '@elevenlabs/types@0.4.0': {}
+  '@elevenlabs/react@1.19.1(@types/dom-mediacapture-record@1.0.22)(react@19.2.0)':
+    dependencies:
+      '@elevenlabs/client': 1.30.0(@types/dom-mediacapture-record@1.0.22)
+      react: 19.2.0
+    transitivePeerDependencies:
+      - '@types/dom-mediacapture-record'
 
-  '@elevenlabs/types@0.6.1': {}
+  '@elevenlabs/types@0.25.0': {}
 
   '@epic-web/invariant@1.0.0': {}
 
