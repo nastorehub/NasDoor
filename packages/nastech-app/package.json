@@ -134,7 +134,7 @@
     "expo-intent-launcher": "~55.0.12",
     "expo-keep-awake": "~55.0.8",
     "expo-linear-gradient": "~55.0.14",
-    "expo-linking": "~55.0.15",
+    "expo-linking": "~58.0.14",
     "expo-live-photo": "~55.0.15",
     "expo-local-authentication": "~55.0.14",
     "expo-localization": "~55.0.15",
