@@ -351,7 +351,7 @@ importers:
         version: 11.17.2
       posthog-react-native:
         specifier: ~4.85.1
-        version: 4.85.1(00f91ce9a50fffdf2184e7f805ecb6e5)
+        version: 4.85.2(00f91ce9a50fffdf2184e7f805ecb6e5)
       preact:
         specifier: ^10.29.2
         version: 10.29.8
@@ -467,8 +467,8 @@ importers:
         specifier: ^3.2.6
         version: 3.2.7(@types/debug@4.1.13)(@types/node@26.6.5)(jiti@1.21.7)(lightningcss@1.33.0)(terser@5.50.0)(tsx@4.23.15)(yaml@2.9.0)
       zod:
-        specifier: 3.25.76
-        version: 3.25.76
+        specifier: 4.6.7
+        version: 4.6.7
       zustand:
         specifier: ^5.0.14
         version: 5.0.16(@types/react@19.2.18)(immer@11.1.8)(react@19.2.0)(use-sync-external-store@1.7.0(react@19.2.0))
@@ -5911,8 +5911,8 @@ packages:
     resolution: {integrity: sha512-u82N74LFzG8ca+dD8puPnplTXoGH4fTPpVGuIbt36G3qvNlkvfD0lEAZSxaly3KX8TS/L1A1gsCEmvKmBcVbkQ==}
     engines: {node: ^10 || ^12 || >=14}
 
-  posthog-react-native@4.85.1:
-    resolution: {integrity: sha512-JGHuMcgKMskw6WSJ2O/o3h8QCBu/6VGv4Y/ixMdujnxcfdkrK+Q4KjA5u1u4gfh2l7Kw5ydRU6AY0olm5XqAfg==}
+  posthog-react-native@4.85.2:
+    resolution: {integrity: sha512-R4U3hnMabQWYO8H1wRuMr0GFGKiuAdX0iioR+k/FSIB158kR9qfmvS5jRyJ6YcuBsTLWsP5Iitftee16N6Dcbg==}
     hasBin: true
     peerDependencies:
       '@posthog/react-native-plugin': '>= 2.12.7'
@@ -7417,6 +7417,9 @@ packages:
 
   zod@3.25.76:
     resolution: {integrity: sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==}
+
+  zod@4.6.7:
+    resolution: {integrity: sha512-g8W2D2kU6a8untc053fX1uVBKzM7yqAxW/3zwk83+6RyF2+SKOuV+c0wBDhUwzV1PaGapmZH+rmcUzPf+3CGwg==}
 
   zustand@5.0.16:
     resolution: {integrity: sha512-Uv7e327ihlCfayfja3hDc0M64Upev1LWBKpRobdK4NyovDDPeeX4imWXc/wzC1yc6fkYPoAY/ncKVPAs2jrtQw==}
@@ -13721,7 +13724,7 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  posthog-react-native@4.85.1(00f91ce9a50fffdf2184e7f805ecb6e5):
+  posthog-react-native@4.85.2(00f91ce9a50fffdf2184e7f805ecb6e5):
     dependencies:
       '@posthog/core': 1.63.0
       '@posthog/types': 1.419.0
@@ -15289,6 +15292,8 @@ snapshots:
       yargs-parser: 21.1.1
 
   zod@3.25.76: {}
+
+  zod@4.6.7: {}
 
   zustand@5.0.16(@types/react@19.2.18)(immer@11.1.8)(react@19.2.0)(use-sync-external-store@1.7.0(react@19.2.0)):
     optionalDependencies:
