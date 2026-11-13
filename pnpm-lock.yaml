@@ -131,8 +131,8 @@ importers:
         specifier: 2.3.3
         version: 2.3.3(@babel/runtime@7.29.7)(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0)
       '@shopify/react-native-skia':
-        specifier: 2.11.2
-        version: 2.11.2(react-native-reanimated@4.2.1(react-native-worklets@0.7.4(@babel/core@7.29.13)(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0))(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0))(react-native-worklets@0.7.4(@babel/core@7.29.13)(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0))(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0)
+        specifier: 2.14.0
+        version: 2.14.0(react-native-reanimated@4.2.1(react-native-worklets@0.7.4(@babel/core@7.29.13)(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0))(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0))(react-native-worklets@0.7.4(@babel/core@7.29.13)(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0))(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0)
       '@tauri-apps/api':
         specifier: 2.12.4
         version: 2.12.4
@@ -426,7 +426,7 @@ importers:
         version: 4.0.3(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0)
       react-native-vision-camera:
         specifier: ^4.7.3
-        version: 4.7.3(@shopify/react-native-skia@2.11.2(react-native-reanimated@4.2.1(react-native-worklets@0.7.4(@babel/core@7.29.13)(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0))(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0))(react-native-worklets@0.7.4(@babel/core@7.29.13)(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0))(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0))(react-native-reanimated@4.2.1(react-native-worklets@0.7.4(@babel/core@7.29.13)(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0))(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0))(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0)
+        version: 4.7.3(@shopify/react-native-skia@2.14.0(react-native-reanimated@4.2.1(react-native-worklets@0.7.4(@babel/core@7.29.13)(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0))(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0))(react-native-worklets@0.7.4(@babel/core@7.29.13)(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0))(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0))(react-native-reanimated@4.2.1(react-native-worklets@0.7.4(@babel/core@7.29.13)(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0))(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0))(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0)
       react-native-web:
         specifier: ^0.21.4
         version: 0.21.4(encoding@0.1.13)(react-dom@19.3.1(react@19.2.0))(react@19.2.0)
@@ -2636,8 +2636,8 @@ packages:
       react: 19.2.0
       react-native: '*'
 
-  '@shopify/react-native-skia@2.11.2':
-    resolution: {integrity: sha512-BGTSMlsl3gM/gw9FyfCDgEATBQvNkhyDX9iEDu/iu3ZLcZT7+QzeFwpC0Sij2pLjuY33x3UDPS2DhSis7Mo7Xw==}
+  '@shopify/react-native-skia@2.14.0':
+    resolution: {integrity: sha512-mzizcTeUAgvam+m1BsxTs+K8ujUXkzoCmwumUhV5NWcoImmKJiWUMfQYgw2OOt1p6qpr7+G5pPOELAmNzZRvlw==}
     hasBin: true
     peerDependencies:
       react: 19.2.0
@@ -6177,17 +6177,17 @@ packages:
       react: 19.2.0
       react-native: '*'
 
-  react-native-skia-android@152.0.0:
-    resolution: {integrity: sha512-X++QG8bpPLHpavUyNfQvAxvtjH3r8fnivxS1PTFZsKL4ZiAJ1V9IVsJi4qltafWJbzhq7IutpZQNYd06uwNkjg==}
+  react-native-skia-android@154.0.0:
+    resolution: {integrity: sha512-brjJaJcrYguSOwdbvMBlh+tHJdIvzOMUZSjTmIpiIe4/V9x0HsBZM9sy3q32+WGoSPWibylR7hbDmaO12EYAUA==}
 
-  react-native-skia-apple-ios@152.0.0:
-    resolution: {integrity: sha512-rmnHYWkwvxm7B9fXZCkTRdZVoQwVnNydjytfphxatweQmEqwYE+/g1LOL/emhM/ulmwAFKFT0VNAEzAlvHId2A==}
+  react-native-skia-apple-ios@154.0.0:
+    resolution: {integrity: sha512-7xq2XYEbcfQYcqyXEnTDXF9GjQzKHuDiUep6wOvOXzoK62108DR8dM3VYgOqJqCTqspPHC9fEJeT52fK3UU5Qg==}
 
-  react-native-skia-apple-macos@152.0.0:
-    resolution: {integrity: sha512-boWCDyPPJUuKwcE+DU8X7dop6EwLdrOH+v7pxYAj+43NbOwgfV1wzq4g+kWIQqag5ZOQInq2mVwCc8S1eJjlXw==}
+  react-native-skia-apple-macos@154.0.0:
+    resolution: {integrity: sha512-0BE6/oVMXYOKsxI4JJP1MwwrgmaDnZAl9l6N+7q434MFiT+w0z96a0gTilZukzo1y+35sDi/sA+iAdTz16ElYA==}
 
-  react-native-skia-apple-tvos@152.0.0:
-    resolution: {integrity: sha512-+UnXke4Yz9Jmy3uTcDbYFrVG/+CZMqYbaTV3f52wovaMzf8wWy+iZampZr6dW6rOWLWrsUFiq7yMImg6UGbiFg==}
+  react-native-skia-apple-tvos@154.0.0:
+    resolution: {integrity: sha512-W06tUa+O3TJTYg5G+Lly/pwxE+2zKsmwJ/23yeR+25zSu7VmfdSz3VqFN3BM0jEioN4ASMm/0cMECocV7vxbMQ==}
 
   react-native-svg@15.16.0:
     resolution: {integrity: sha512-uh8yktufYeRU3W9Omi8+SPyLF9BVN4JmLflSgc9oOcKkSKk/S5JUmmTjKZq/L8GHfQUtCvcu/W6X4xhEfBBAjQ==}
@@ -9912,14 +9912,14 @@ snapshots:
       react: 19.2.0
       react-native: 0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0)
 
-  '@shopify/react-native-skia@2.11.2(react-native-reanimated@4.2.1(react-native-worklets@0.7.4(@babel/core@7.29.13)(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0))(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0))(react-native-worklets@0.7.4(@babel/core@7.29.13)(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0))(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0)':
+  '@shopify/react-native-skia@2.14.0(react-native-reanimated@4.2.1(react-native-worklets@0.7.4(@babel/core@7.29.13)(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0))(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0))(react-native-worklets@0.7.4(@babel/core@7.29.13)(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0))(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0)':
     dependencies:
       canvaskit-wasm: 0.41.0
       react: 19.2.0
-      react-native-skia-android: 152.0.0
-      react-native-skia-apple-ios: 152.0.0
-      react-native-skia-apple-macos: 152.0.0
-      react-native-skia-apple-tvos: 152.0.0
+      react-native-skia-android: 154.0.0
+      react-native-skia-apple-ios: 154.0.0
+      react-native-skia-apple-macos: 154.0.0
+      react-native-skia-apple-tvos: 154.0.0
       react-reconciler: 0.31.0(react@19.2.0)
     optionalDependencies:
       react-native: 0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0)
@@ -13918,13 +13918,13 @@ snapshots:
       react-native: 0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0)
       warn-once: 0.1.1
 
-  react-native-skia-android@152.0.0: {}
+  react-native-skia-android@154.0.0: {}
 
-  react-native-skia-apple-ios@152.0.0: {}
+  react-native-skia-apple-ios@154.0.0: {}
 
-  react-native-skia-apple-macos@152.0.0: {}
+  react-native-skia-apple-macos@154.0.0: {}
 
-  react-native-skia-apple-tvos@152.0.0: {}
+  react-native-skia-apple-tvos@154.0.0: {}
 
   react-native-svg@15.16.0(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0):
     dependencies:
@@ -13959,12 +13959,12 @@ snapshots:
       react: 19.2.0
       react-native: 0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0)
 
-  react-native-vision-camera@4.7.3(@shopify/react-native-skia@2.11.2(react-native-reanimated@4.2.1(react-native-worklets@0.7.4(@babel/core@7.29.13)(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0))(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0))(react-native-worklets@0.7.4(@babel/core@7.29.13)(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0))(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0))(react-native-reanimated@4.2.1(react-native-worklets@0.7.4(@babel/core@7.29.13)(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0))(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0))(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0):
+  react-native-vision-camera@4.7.3(@shopify/react-native-skia@2.14.0(react-native-reanimated@4.2.1(react-native-worklets@0.7.4(@babel/core@7.29.13)(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0))(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0))(react-native-worklets@0.7.4(@babel/core@7.29.13)(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0))(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0))(react-native-reanimated@4.2.1(react-native-worklets@0.7.4(@babel/core@7.29.13)(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0))(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0))(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0):
     dependencies:
       react: 19.2.0
       react-native: 0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0)
     optionalDependencies:
-      '@shopify/react-native-skia': 2.11.2(react-native-reanimated@4.2.1(react-native-worklets@0.7.4(@babel/core@7.29.13)(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0))(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0))(react-native-worklets@0.7.4(@babel/core@7.29.13)(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0))(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0)
+      '@shopify/react-native-skia': 2.14.0(react-native-reanimated@4.2.1(react-native-worklets@0.7.4(@babel/core@7.29.13)(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0))(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0))(react-native-worklets@0.7.4(@babel/core@7.29.13)(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0))(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0)
       react-native-reanimated: 4.2.1(react-native-worklets@0.7.4(@babel/core@7.29.13)(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0))(react-native@0.83.6(@babel/core@7.29.13)(@types/react@19.3.0)(react@19.2.0))(react@19.2.0)
 
   react-native-web@0.21.4(encoding@0.1.13)(react-dom@19.3.1(react@19.2.0))(react@19.2.0):
